@@ -58,6 +58,7 @@ html {
 @media (max-width: 800px) {
   .side-menu-container {
     display: none;
+    width: 0;
   }
   .main-content-container {
     width: 100vw;

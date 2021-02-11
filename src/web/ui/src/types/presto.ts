@@ -51,6 +51,7 @@ export type FinalPegRNA = {
 };
 
 export type GlobalState = {
+  menuTab: string;
   wtSeq: string;
   mut: string;
   spacer: string;

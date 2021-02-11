@@ -18,6 +18,7 @@ import {
 import { createGlobalState } from 'react-hooks-global-state';
 
 const initialState: GlobalState = {
+  menuTab: 'home',
   wtSeq: '',
   mut: '',
   spacer: '',
@@ -482,5 +483,13 @@ export function useStep3Advanced() {
   return {
     step3Advanced,
     setStep3Advanced,
+  };
+}
+
+export function useMenuTab() {
+  const [menuTab, setMenuTab] = useGlobalState('menuTab');
+  return {
+    menuTab,
+    setMenuTab,
   };
 }

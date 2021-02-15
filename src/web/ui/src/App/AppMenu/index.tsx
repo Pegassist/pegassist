@@ -8,34 +8,33 @@ function navCallback(
   setMenuTab: (u: SetStateAction<string>) => void,
 ) {
   setMenuTab(tab);
-  window.history.pushState(null, '', `${tab}`);
+  // window.history.pushState(null, '', `${tab}`);
 }
 
-function ensureLocation(
-  menuTab: string,
-  setMenuTab: (u: SetStateAction<string>) => void,
-) {
-  const locationTab = window.document.location.pathname.replace('/', '');
-  if (locationTab !== menuTab) {
-    setMenuTab(locationTab);
-  }
-}
+// function ensureLocation(
+//   menuTab: string,
+//   setMenuTab: (u: SetStateAction<string>) => void,
+// ) {
+//   const locationTab = window.document.location.pathname.replace('/', '');
+//   if (locationTab !== menuTab) {
+//     setMenuTab(locationTab);
+//   }
+// }
 
-const IS_REGISTERED = false;
-function registerOnPopState(
-  menuTab: string,
-  setMenuTab: (u: SetStateAction<string>) => void,
-) {
-  if (!IS_REGISTERED) {
-    window.onpopstate = function (event: PopStateEvent) {
-      ensureLocation(menuTab, setMenuTab);
-    };
-  }
-}
+// const IS_REGISTERED = false;
+// function registerOnPopState(
+//   menuTab: string,
+//   setMenuTab: (u: SetStateAction<string>) => void,
+// ) {
+//   if (!IS_REGISTERED) {
+//     window.onpopstate = function (event: PopStateEvent) {
+//       ensureLocation(menuTab, setMenuTab);
+//     };
+//   }
+// }
 
 const AppMenu = () => {
   const { menuTab, setMenuTab } = useMenuTab();
-  registerOnPopState(menuTab, setMenuTab);
   return (
     <Menu
       secondary

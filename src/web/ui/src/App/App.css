@@ -75,6 +75,11 @@ html {
   cursor: pointer;
 }
 
+.menu-logo {
+  height: 50px;
+  padding-left: 40px;
+}
+
 @media (max-width: 800px) {
   .side-menu-container {
     display: none;

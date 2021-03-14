@@ -51,7 +51,7 @@ const AppMenu = () => {
     >
       <img
         alt="PegAssist Logo"
-        src={`${API_ROOT}/icon/pegassist3ciel.png`}
+        src={`${API_ROOT}/icon/pegassist_logo_r7_large.png`}
         className="menu-logo"
       />
       <Menu.Item

@@ -51,7 +51,7 @@ const AppMenu = () => {
     >
       <img
         alt="PegAssist Logo"
-        src={`${API_ROOT}/icon/pegassist_logo_r7_large.png`}
+        src={`${API_ROOT}/icon/pegassist_logo_r8.svg`}
         className="menu-logo"
       />
       <Menu.Item
@@ -65,8 +65,11 @@ const AppMenu = () => {
         active={menuTab === 'about'}
         onClick={() => navCallback('about', setMenuTab)}
       ></Menu.Item>
-      {/* <Menu.Item name="Instructions"></Menu.Item>
-      <Menu.Item name="Examples"></Menu.Item> */}
+      <Menu.Item
+        name="Getting Started"
+        active={menuTab === 'getting_started'}
+        onClick={() => navCallback('getting_started', setMenuTab)}
+      ></Menu.Item>
     </Menu>
   );
 };

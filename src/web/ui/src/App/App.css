@@ -41,7 +41,7 @@ html {
   width: calc(100vw - 300px);
   left: 300px;
 }
-.about-content-container {
+.static-content-container {
   position: absolute;
   top: 40px;
   left: 40px;
@@ -53,9 +53,17 @@ html {
   padding-bottom: 80px;
 }
 
-.about-header {
+.static-header {
   margin-bottom: 0.5rem;
   margin-top: 1.5rem;
+}
+
+.static-spacer {
+  margin-bottom: 2rem;
+}
+
+.static-image {
+  max-width: 100%;
 }
 
 .generic-output-sequence,

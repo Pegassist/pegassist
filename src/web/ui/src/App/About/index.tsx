@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import { Grid } from 'semantic-ui-react';
 
 const AboutContent = () => (
-  <div className="about-content-container">
-    <h2 className="about-header">About Pegassist.app</h2>
+  <div className="static-content-container">
+    <h2 className="static-header">About Pegassist.app</h2>
     <p>
       Pegassist (v 0.8 beta) is a web app to design prime editing guide RNA
       (pegRNA) for genome editing with Cas9 nickase–reverse transcriptase
@@ -11,7 +11,7 @@ const AboutContent = () => (
       2019).
     </p>
 
-    <h3 className="about-header">Instructions</h3>
+    <h3 className="static-header">Instructions</h3>
     <p>
       Give Pegassist your target genomic sequence and the edits you want to
       introduce. The app will propose sequences for a Prime Editing strategy,
@@ -27,7 +27,7 @@ const AboutContent = () => (
       experimental validation.
     </p>
 
-    <h3 className="about-header">Copyright and Citation</h3>
+    <h3 className="static-header">Copyright and Citation</h3>
     <p>
       All copyright is exclusively owned by the University of Maryland.
       Pegassist is free for non-profit and academic research. All commercial
@@ -35,7 +35,7 @@ const AboutContent = () => (
       publication, please cite:
     </p>
 
-    <h3 className="about-header">Support</h3>
+    <h3 className="static-header">Support</h3>
     <p>
       This work is supported by The Department of Pharmacology, University of
       Maryland School of Medicine; The National Cancer Institute (T32CA154274),
@@ -43,7 +43,7 @@ const AboutContent = () => (
       Program (DP2MH122398).
     </p>
 
-    <h3 className="about-header">Development team: Poulopoulos Lab</h3>
+    <h3 className="static-header">Development team: Poulopoulos Lab</h3>
     <p>
       Prime editing:{' '}
       <a href="https://www.linkedin.com/in/ryanr-richardson/">
@@ -75,7 +75,7 @@ const AboutContent = () => (
       </a>
     </p>
 
-    <h3 className="about-header">Links</h3>
+    <h3 className="static-header">Links</h3>
     <a href="http://poulab.org/">Poulopoulos Lab</a>
   </div>
 );

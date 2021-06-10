@@ -47,13 +47,9 @@ const AppMenu = () => {
         backgroundColor: '#f3f4f5',
         zIndex: 2,
         marginBottom: 0,
+        paddingLeft: 40,
       }}
     >
-      <img
-        alt="PegAssist Logo"
-        src={`${API_ROOT}/icon/pegassist_logo_r8.svg`}
-        className="menu-logo"
-      />
       <Menu.Item
         name="Home"
         active={menuTab === 'home'}

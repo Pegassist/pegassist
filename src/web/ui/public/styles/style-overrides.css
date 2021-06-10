@@ -23,9 +23,20 @@ h5 {
   width: calc(272px + 40px);
   height: calc(100vh - 40px);
   position: absolute;
-  top: 40px;
+  top: 180px;
   left: 0px;
   padding-top: 40px;
+}
+
+.side-menu-logo-container {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  width: 272px;
+}
+
+.side-menu-logo {
+  width: 100%;
 }
 
 .ui.steps {

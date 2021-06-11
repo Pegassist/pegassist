@@ -21,7 +21,7 @@ h5 {
 .side-menu-container {
   z-index: 2;
   width: calc(272px + 40px);
-  height: calc(100vh - 40px);
+  height: calc(100vh - 180px);
   position: absolute;
   top: 180px;
   left: 0px;

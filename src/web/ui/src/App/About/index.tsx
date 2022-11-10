@@ -63,6 +63,10 @@ const AboutContent = () => (
       <a href="https://www.linkedin.com/in/marilyn-steyert-ba617a142/">
         Marilyn Steyert
       </a>
+      ,{' '}
+      <a href="https://www.linkedin.com/in/corinne-martin-765745229">
+        Corinne Martin
+      </a>
     </p>
     <p>
       Web app: <a href="https://www.linkedin.com/in/flynncorey/">Corey Flynn</a>

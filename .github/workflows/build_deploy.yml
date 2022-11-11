@@ -28,9 +28,11 @@ jobs:
     
     - name: Build project
       run: npm run build
+      working-directory: ./src/web/ui
     
     - name: Run tests
       run: npm run test
+      working-directory: ./src/web/ui
 
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2

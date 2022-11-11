@@ -24,7 +24,7 @@ jobs:
     
     - name: Install NPM packages
       run: npm ci
-      working-directory: pegassist/src/web/ui/build
+      working-directory: .src/web/ui
     
     - name: Build project
       run: npm run build
